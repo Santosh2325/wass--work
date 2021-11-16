@@ -1,0 +1,696 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--unnamed-font-family-rajdhani);
+}
+
+
+/* Character Styles */
+
+.h1-49pt{
+	font-family: rajdhani;
+	font-style: normal;
+	font-weight:600px;
+	font-size: 49;
+	line-height: 56px;
+	letter-spacing: 0;
+	color: ffffff;
+}
+
+
+
+/*----navbar----*/
+
+nav{
+	height: 150px;
+	border: 1px solid var(--unnamed-color-03254c);
+}
+
+.logo img{
+	margin-top: 0px; 
+	margin-left: 151px;
+	margin-bottom: 0px;
+	background: transparent;
+	width: 100px;
+	height: 100px;
+}
+.logo p{
+	width: 400px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left: 5px;
+	font-family: rajdhani;
+	font-size: medium;
+  font-style: bold;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+
+}
+
+.sidenav{
+	height: 100%;
+	width: 0px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.6);
+	overflow-x: hidden; 
+	transition: 0.5s;
+	padding-top: 60px;
+	margin-left: 0px;
+}
+
+.sidenav a{
+	padding: 8px 8px 8px 32px;
+	display: block;
+	transition: 0.3s;
+	text-decoration: none;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-medium);
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-ffffff);
+}
+
+.sidenav a:hover{
+	color: #0044ff;
+	text-decoration: underline;
+}
+
+.icon img{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 35px;
+	margin-right: 160px;
+	font-size: 36px;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+
+.sidenav .close-icon{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 50px;
+	margin: 4px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.sidenav .close-icon:hover{
+	text-decoration: none !important;
+	color: #FFFFFF;
+}
+
+/*----team----*/
+
+.team{
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.team .text{
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 100px;
+}
+
+.team .text h1{
+	margin-top: 100px;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: 700px;
+	font-size: var(--unnamed-font-size-49);
+	line-height: var(--unnamed-line-spacing-56);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-03254c);
+	margin-bottom: ;
+}
+
+.team .text h3{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-medium);
+	font-size: var(--unnamed-font-size-25);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-03254c);
+}
+
+.container .row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 80px;
+  	perspective: 1000px; 
+}
+
+.container .row .card{
+	width: 350px;
+	margin: 10px;
+	text-align: left;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+  	transition: transform 0.50s;
+  	transform-style: preserve-3d;
+}
+
+.card:hover{
+  	transform: rotateY(180deg);
+}
+
+.front, .back{	
+   	position: fixed;
+   	width: 100%;
+   	height: 100%;
+   	backface-visibility: hidden;
+}
+
+.back{
+ transform: rotateY(180deg);
+  width: 350px;
+	margin-left: 0px;
+	margin-top: 0px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+	box-shadow: 0 6px 8px #bbb;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+}
+
+.card .img{
+	position: relative;
+	width: 100%;
+	height: 350px;
+}
+
+.card .img img{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	object-fit: fill;
+}
+
+.card .name{
+
+
+	background-color: #00000029;
+	margin-top: 0px;
+	padding: 15px 15px;
+	border: 1px solid #ccc;
+}
+
+.card .name2{
+	background-color: black;
+	margin-top: 0px;
+	height: 50px;
+  align-items: ;
+  margin-top: 0PX;
+  margin-bottom: 0PX;
+
+}
+
+
+.name2 .a1 img{
+	width: 140px;
+	height:70px;
+	margin-top: -10px;
+	margin-left: 130px;
+}
+
+
+
+.name2 .a2 img{
+	display: flex;
+	position: relative;
+	width: 45px;
+	height: 45px;
+	margin-left: 235px;
+	margin-top: -65px;
+	margin-bottom: 0px;
+	padding-bottom: 0;
+
+
+}
+
+ .name2 .a3 img{
+ 	display: flex;
+	position: relative;
+	width: 50px;
+	height: 40px;
+	margin-left: 290px;
+	margin-top:-40px;
+	padding-top: 0px;
+
+
+}
+
+
+
+.card .p1{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-18);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+}
+
+.card .p2{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-medium);
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: #0041F5;
+}
+
+.card .back .heading{
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	padding: 5px 30px;
+	background-color:  gray;
+	height: 50px;
+	
+}
+
+.card .back .heading h4{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: 600;
+	font-size: var(--unnamed-font-size-18);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+} 
+
+.card .back .heading .btn1{
+
+	margin-left: -30px;
+	margin-top: -3PX;
+
+	font-family: rajdhani;
+	font-style: bold;
+	font-weight:bold;
+	font-size: 23px;
+	letter-spacing: 0PX;	
+	color: blue;
+	border-style: none;
+	background: unset;
+	height: 50px;
+	width: 400px;
+}
+
+.card .back .heading .btn1:hover{
+	color: white;
+	background-color: darkblue;
+}
+
+
+
+.card .back .heading .btn2{
+	
+	margin-right: -30px;
+	margin-top:-3px ;	
+	font-family: rajdhani;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 23px;
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	border-collapse: ;
+	border-radius: ;
+	border-style: none;
+	color: blue;
+	height: 50px;
+	width: 350px;
+	background: unset;
+
+}
+
+
+.card .back .heading .btn2:hover{
+	color: white;
+	background-color: darkblue;
+}
+
+
+.card .back .details{
+	
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 330px ;
+	
+}
+
+.card .back .line{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity: 0;
+}
+
+.card .back .line p{
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: center;
+
+}
+.card .back table {
+  border-spacing: 0;
+  width: 100%;
+  height: 330px;
+  opacity: 0.50;
+  font-size: 29px;
+  background-color: white;
+
+}
+   
+
+     tr { 
+    	background-color: ;
+    	width:100px; 
+    	border-bottom: 1px solid #ddd;
+    	height: ;
+    	
+    	}
+    td { 
+    background-color: ;  
+     width:200px;
+     height: 10px;
+     border-bottom: ;
+
+   }
+
+     .left {  text-align:left;  }
+     .bar {  text-align:center;  }
+    
+   .bar {
+
+   	margin-right: 50px;
+   	margin-top: 90px;     
+}
+
+.bar .skills { 
+	height: 30px;
+	background-color: darkorange;
+
+	
+}
+
+.Sef_Motivation{
+ 	margin-top: 10px;
+ 	width: 100%;
+ 	height: 0px;
+ 	background-color: orangered;
+ }
+
+ .Stamina{
+ 	margin-top: 10px;
+
+ 	 
+ 	 width: 90%; height:0PX;  background-color: orangered;
+
+
+ }
+ .Reflex{
+ 	width: 80%; 
+
+ 	height:50PX; background-color: orangered;
+
+ }
+ .Intelligence{
+ 	width: 100%; height:50PX;  background-color: orangered;
+
+ }
+ .Healing-Factor{
+ 	width: 85%;  height:0PX; background-color: orangered;
+
+ }
+
+ .Sarcasm{
+ 	width: 100%; height:0PX;  background-color: orangered;
+
+ }
+
+ .Speed{
+ 	width: 100%; height:0PX;  background-color: orangered;
+
+ }
+
+ .Favourite-Team{
+ 	width: 100%; height:0PX;  background-color: orangered;
+
+ }
+
+   
+.card .back .details .st {
+   	border-spacing: ;
+    width: 100%;
+    height: 330px;
+    opacity: 50;
+    color: black;
+    opacity: 0.50;
+    backface-visibility: hidden;
+    background-color: white;
+}
+.st h6{
+	   	border-spacing: ;
+	   	font-size: 24px;
+	   	font-family: rajdhani;
+       width: 300px;
+       height: 200px;
+        margin-left: 20px;
+       text-align: center;
+       opacity:;
+     
+
+
+}
+
+
+
+
+
+
+
+
+
+/*----footer----*/
+
+.footer{
+	width: 100%;
+	text-align: left;
+	padding: 40px 0px;
+	background-color: #00000029;
+	margin-top: 0px;
+	position: relative;
+	height: 270px;
+	display: flex;
+}
+
+/*----footer-sect. 1----*/
+
+.footer .section1{
+	margin-left: 50px;
+	flex-basis: 33%;
+}
+
+.footer .section1 .logo{
+	margin-left: 40px;
+	margin-top: 0px;
+	margin-bottom: 40px;	
+}
+
+.footer .section1 .logo img{
+	width: 70px;
+	height: 70px;
+	background-color: transparent ;
+	position: relative;
+	margin-left: 50px;
+	margin-top:-30px;
+
+}
+
+.footer .section1 .logo   p{
+	width: 220px;
+	height: 20px;
+	margin-top: 0px;
+	margin-left: -25px;
+	font-family: rajdhani;
+	font-size: 12px;
+  font-style: bold;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+
+
+}
+
+
+.footer .section1 .footer-text p{
+	position: relative;
+	text-align: left;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+.footer .section1 .social-icons{
+	display: inline-block;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer .section1 .social-icons img{
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.footer .section1 .social-icons .facebook{
+	margin-left: 30px;
+}
+
+.footer .section1 .social-icons .instagram{
+	margin-left: 30px;
+}
+
+/*----footer-sect. 2----*/
+
+.footer .section2{
+	flex-basis: 67%;
+	margin-left: 400px;
+}
+
+.footer .section2 .home .title{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: 700;
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-000000);
+	margin-bottom: 10px;
+}
+
+.footer .section2 .home ul li{
+	list-style: none;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: bold;
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-bottom: 10px;
+}
+
+.footer .section2 .home ul a{
+	text-decoration: none;
+}
+
+.footer .section2 .home ul a li:hover{
+	color: #0041F5; 
+}
+
+/*----footer-sect. 3----*/
+
+.footer .section3{
+	flex-basis: 33%;
+	margin-left: 950px;
+	position: absolute;
+}
+
+.footer .section3 .title{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: 700;
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-000000);
+	margin-bottom: 10px;
+}
+
+.footer .section3 .company ul li{
+	list-style: none;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: bold;
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-bottom: 10px;
+}
+
+.footer .section3 .company ul a{
+	text-decoration: none;
+}
+
+.footer .section3 .company ul a li:hover{
+	color: #0041F5; 
+}
+
+/*----footer-sect. 4----*/
+
+.footer .section4{
+	flex-basis: 33%;
+	margin-left: 1110px;
+	position: absolute;
+}
+
+.footer .section4 .title{
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: var(--unnamed-font-style-normal);
+	font-weight: 700;
+	font-size: var(--unnamed-font-size-20);
+	line-height: var(--unnamed-line-spacing-32);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-000000);
+	margin-bottom: 10px;
+}
+
+.footer .section4 .help ul li{
+	list-style: none;
+	font-family: var(--unnamed-font-family-rajdhani);
+	font-style: bold;
+	font-weight: var(--unnamed-font-weight-normal);
+	font-size: var(--unnamed-font-size-16);
+	line-height: var(--unnamed-line-spacing-24);
+	letter-spacing: var(--unnamed-character-spacing-0);
+	color: var(--unnamed-color-222222);
+	margin-bottom: 10px;
+}
+
+.footer .section4 .help ul a{
+	text-decoration: none;
+}
+
+.footer .section4 .help ul a li:hover{
+	color: #0041F5; 
+}

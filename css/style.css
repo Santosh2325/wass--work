@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*----Colors----*/
+
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-222222: #222222;
+  --unnamed-color-000000: #000000;
+  --unnamed-color-03254c: #03254c;
+
+  /*----Font/text values----*/
+
+  --unnamed-font-family-rajdhani: Rajdhani;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-600: 600px;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-weight-medium: medium;
+  --unnamed-font-size-16: 16px;
+  --unnamed-font-size-20: 20px;
+  --unnamed-font-size-25: 25px;
+  --unnamed-font-size-39: 39px;
+  --unnamed-font-size-49: 49px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-32: 32px;
+  --unnamed-line-spacing-48: 48px;
+  --unnamed-line-spacing-56: 56px;
+}
+
+/*----Character Styles----*/
+
+.h1-49pt {
+  font-family: var(--unnamed-font-family-rajdhani);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-49);
+  line-height: var(--unnamed-line-spacing-56);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}
+
+.h2-39pt {
+  font-family: var(--unnamed-font-family-rajdhani);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-600);
+  font-size: var(--unnamed-font-size-39);
+  line-height: var(--unnamed-line-spacing-48);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-03254c);
+}
+
+.body-25pt {
+  font-family: var(--unnamed-font-family-rajdhani);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-25);
+  line-height: var(--unnamed-line-spacing-32);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+}
+
+.body-sm-20pt {
+  font-family: var(--unnamed-font-family-rajdhani);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-medium);
+  font-size: var(--unnamed-font-size-20);
+  line-height: var(--unnamed-line-spacing-32);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+}
+
+.body-xsm {
+  font-family: var(--unnamed-font-family-rajdhani);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-16);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-222222);
+}
+
+
+
+.solution-section {
+  position:absolute;
+  margin-top: ;
+  left: -100px;
+  width: 100%;
+  height: 1071px;
+  margin-left: 160px;
+}
+
+.solution-section h2 {
+  
+  left: 112px;
+  width: 409px;
+  height: 97px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600)
+    var(--unnamed-font-size-39) / var(--unnamed-line-spacing-48)
+    var(--unnamed-font-family-rajdhani);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-03254c);
+  text-align: left;
+  font: normal normal 600 39px/48px Rajdhani;
+  letter-spacing: 0px;
+  color: #03254c;
+  opacity: 1;
+}
+
+.solution-card {
+  margin-top: 80px;
+  left: 0px;
+  width: 586px;
+  height: 635px;
+  background: #e8e8e8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.solution-card .solution-card-body {
+  top: 10px;
+  left: 1px;
+  width: `100%;
+  height: 199px;
+}
+
+.solution-card-img {
+  background: transparent url("img/Path 98.png") 0% 0% no-repeat padding-box;
+}
+
+.solution-card-heading {
+  margin-top: 24px;
+  margin-left: 24px;
+  width: 100%;
+  height: 32px;
+  font: var(--unnamed-font-style-normal) normal bold var(--unnamed-font-size-25) /
+    var(--unnamed-line-spacing-32) var(--unnamed-font-family-rajdhani);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-03254c);
+}
+
+.solution-card-body p {
+  margin-top: 24px;
+  margin-left: 24px;
+  width: 536px;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-000000);
+  font-size: var(--unnamed-font-size-20);
+  font-weight: var(--unnamed-font-weight-medium);
+  line-height: var(--unnamed-line-spacing-32);
+  font-family: var(--unnamed-font-family-rajdhani);
+  text-align: left;
+  opacity: 1;
+}
+
+.solution-card-links {
+  margin-top: 24px;
+  margin-left: 24px;
+}
+
+a.solution-learn-more-link {
+  font-size: var(--unnamed-font-size-20);
+  font-weight: var(--unnamed-font-weight-medium);
+  line-height: var(--unnamed-line-spacing-32);
+  font-family: var(--unnamed-font-family-rajdhani);
+
+  text-align: left;
+  letter-spacing: 0px;
+  color: #0044ff;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.solution-learn-more-link-arrow {
+  margin-left: 12px;
+  font-size: var(--unnamed-font-size-16);
+}
+.solution-heading-bottom-short-line {
+  top: 1444px;
+  margin-left: 115px;
+  width: 72px;
+  height: 0px;
+  border: 2px solid var(--unnamed-color-03254c);
+  border: 2px solid #03254c;
+  opacity:1;
+}
+
+/* Card Section-2*/
+.solution-section-2 {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 750px;
+  width: 586px;
+  height: 635px;
+  background: #e8e8e8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.solution-section-3 {
+  position: absolute;
+  top: 2152px;
+  left: 58px;
+  width: 586px;
+  height: 635px;
+  background: #e8e8e8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.solution-section-4 {
+  position: absolute;
+  top: 1995px;
+  left: 750px;
+  width: 586px;
+  height: 635px;
+  background: #e8e8e8 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.solution-expore-all-btn .btn {
+  position: absolute;
+  top: 2679px;
+  left: 898px;
+  width: 208px;
+  height: 53px;
+
+  background: #0044ff 0% 0% no-repeat padding-box;
+  text-align: left;
+
+  font-weight: var(--unnamed-font-weight-normal);
+  line-height: var(--unnamed-line-spacing-32);
+  font-family: var(--unnamed-font-family-rajdhani);
+  font-size: var(--unnamed-font-size-16);
+
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 12px 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.solution-expore-all-btn .btn span {
+  margin-left: 18px;
+}
+
+.solution-expore-all-btn .btn:hover {
+  background: #03254c;
+}

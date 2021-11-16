@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Page</title>
+</head>
+
+<!----Font Awesome Kit---->
+
+<script src="https://kit.fontawesome.com/d97045d1aa.js" crossorigin="anonymous"></script>
+
+<!----Custom Stylesheet---->
+
+<link rel="stylesheet" type="text/css" href="css/contact.css">
+
+<body>
+
+	<!----Navbar Section---->
+
+	<div id="sidenav" class="sidenav">
+		<a href="javascript:void(0)" class="close-icon" onclick="closenav()">&times;</a>
+		<a href="#">HOME</a>
+		<a href="#">ABOUT US</a>
+		<a href="#">PRODUCTS</a>
+		<a href="contact.html">CONTACT US</a>
+	</div>
+	<span class="icon" id="menu-icon" onclick="opennav()"><img src="img/Group 9.svg"></span>
+
+	<div class="container">
+		<div class="logo">
+			<img src="img/Image 1.png">
+		</div>
+	</div>
+
+	<!----Slide Section---->
+
+	<div class="slide">
+		<img src="img/Rectangle 4.png">
+	</div>
+
+	<!----Form Section---->
+
+	<div class="contactus">
+		<h1 class="h1">Contact Us</h1>
+		<hr>
+		<h3 class="h3">We'd love to hear from you!</h3>
+		<div class="form">
+			<form>
+				<input type="text" id="fname" class="fname" name="fname" placeholder="First Name">
+				<input type="text" id="lname" name="lname" placeholder="Last Name">
+				<input type="text" id="emailid" name="emailid" placeholder="Email">
+				<input type="text" id="phoneno" name="phoneno" placeholder="Phone Number">
+				<textarea placeholder="Type your message here..." id="message"></textarea>
+				<button type="button" id="submit" name="submit">Submit <span><i class="fas fa-arrow-right arw"></i></span></button>
+			</form>
+		</div>
+	</div>
+
+	<!----Address Section---->
+
+	<div class="box">
+		<div class="sect1">
+			<i class="far fa-envelope fa-2x"></i>
+			<p>Support@guhan.in</p>
+		</div>
+
+		<div class="sect2">
+			<i class="fas fa-map-marker-alt fa-2x"></i>
+			<p>
+				<pre>
+					158, G Block, 1st Main Road,
+					Anna Nagar, Chennai, Tamil
+					Nadu, Post Code - 600102 
+				</pre>
+			</p>
+		</div>
+
+		<div class="sect3">
+			<i class="far fa-comment fa-2x"></i>
+			<p class="txt1">044 26633516</p>
+			<p class="txt2">We're there on Whatsapp too</p>
+		</div>
+	</div>
+
+	<!----Footer Section---->
+
+	<div class="footer">
+
+		<!----1st Section---->
+
+		<div class="section1">
+			<div class="logo">
+				<a href="#"><img src="img/Image 1.png"></a>
+			</div>
+			<div class="footer-text">
+				<p>Production, Manufacturing, R&D <br /> and Automation</p>
+			</div>
+			<div class="social-icons">
+				<a href="#"><img src="img/Twitter.svg" class="twitter"></a>
+				<a href="#"><img src="img/Facebook.svg" class="facebook"></a>
+				<a href="#"><img src="img/Instagram.svg" class="instagram"></a>
+			</div>
+		</div>
+
+		<!----2nd Section---->
+
+		<div class="section2">
+			<div class="home">
+				<p class="title">Home</p>
+				<ul>
+					<a href="#"><li>Why Choose Us?</li></a>
+					<a href="#"><li>Our Solutions</li></a>
+					<a href="#"><li>Our Investors</li></a>
+					<a href="#"><li>Testimonials</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<!----3rd Section---->
+
+		<div class="section3">	
+			<div class="company">
+				<p class="title">Company</p>
+				<ul>
+					<a href="#"><li>About Us</li></a>
+					<a href="#"><li>Expertise</li></a>
+					<a href="#"><li>Investors</li></a>
+					<a href="#"><li>Explore</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<!----4th Section---->
+
+		<div class="section4">	
+			<div class="help">
+				<p class="title">Help</p>
+				<ul>
+					<a href="#"><li>Contact Us</li></a>
+					<a href="#"><li>Privacy Policy</li></a>
+					<a href="#"><li>Terms of Use</li></a>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+	<!----Copyright Section---->
+
+	<div class="copyright"> 		
+		<p>&copy; All Rights Reserved GIMS 2021</p>
+	</div>
+
+	<!----Javascript Section---->
+
+	<script type="text/javascript">
+      function opennav()
+      {
+          document.getElementById("sidenav").style.width = "350px";
+          document.getElementById("menu-icon").style.display = "none";
+      }
+
+      function closenav()
+      {
+          document.getElementById("sidenav").style.width = "0";
+          document.getElementById("menu-icon").style.display = "block";
+      }
+  </script>
+</body>
+</html>

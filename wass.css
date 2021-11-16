@@ -1,0 +1,338 @@
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+        *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+        body{
+        	font-family: var(--unnamed-font-family-rajdhani);
+	        font-style: var(--unnamed-font-style-normal);
+	        font-weight: var(--unnamed-font-weight-medium);
+	        font-size: var(--unnamed-font-size-20);
+	        line-height: var(--unnamed-line-spacing-32);
+	        letter-spacing: var(--unnamed-character-spacing-0);
+	        color: var(--unnamed-color-000000);
+			margin-top: 0px;
+			margin-left: 0px;
+			padding: 0px;
+			width: 1440px;
+			height: 4363px;
+			background: #FFFFFF 0% 0% no-repeat padding-box;
+
+		}
+		.body-xsm{
+		font-family: var(--unnamed-font-family-rajdhani);
+		font-style: var(--unnamed-font-style-normal);
+		font-weight: var(--unnamed-font-weight-normal);
+		font-size: var(--unnamed-font-size-16);
+		line-height: var(--unnamed-line-spacing-24);
+		letter-spacing: var(--unnamed-character-spacing-0);
+		color: var(--unnamed-color-222222);
+	}
+	.product_section{
+		    margin-top: 100px;
+			margin-left: 0px;
+			width: 1440px;
+			height: 500px;
+			font-size: 39px;
+			font-family: rajdhani;
+			text-align: left;
+			color: #03254c;
+			opacity: 1;
+			
+			justify-content:left;
+			
+
+	}
+      .product_section h2{
+			margin-top: 50px;
+			margin-left: 206px;
+			width: 363px;
+			height: 145px;
+			font-size: 39px;
+			font-family: rajdhani;
+			text-align: left;
+			color: #03254c;
+			opacity: 1;
+		}
+		.product hr{
+			margin-top: 30px;
+			margin-left: 208px;
+			width: 72px;
+			height: 0px;
+			opacity: 1;
+		}
+		.product_section .latest_tech{
+			margin-top: -150px;
+			margin-left:701px;
+			width:222px;
+			height:136px; 
+			float: left;
+			opacity: 1;
+			
+	
+		}
+		.product_section .Protection{
+			margin-top: -150px;
+			margin-left:1010px;
+			width:222px;
+			height:136px; 
+			float: left;
+			opacity: 1;
+		}
+		.product_section .Manufacturing{
+			margin-top: 60px;
+			margin-left:701px;
+			width:222px;
+			height:136px; 
+			float: left;
+			opacity: 1;
+		}
+		.product_section .Global_Scalability{
+			margin-top: -120px;
+			margin-left:1010px;
+			width:222px;
+			height:136px; 
+			float: left;
+			opacity: 1;
+		}
+		.product_section .latest_tech .p1{
+			
+			width:210px;
+			height: 45px;
+			font-size: 16px;
+			font-family:rajdhani;
+			opacity: 1;
+			color: #222222;
+		}
+		.product_section .Protection .p1{
+			width: 210px;
+			height: 45px;
+			font-size: 16px;
+			font-family:rajdhani;
+			opacity: 1;
+			color: #222222;
+		}
+	.product_section .Manufacturing .p1{
+			width: 210px;
+			height: 45px;
+			font-size: 16px;
+			font-family:rajdhani;
+			opacity: 1;
+			color: #222222;
+		}
+	.product_section .Global_Scalability .p1{
+			width: 210px;
+			height: 45px;
+			font-size: 16px;
+			font-family:rajdhani;
+			opacity: 1;
+			color: #222222;
+		}
+	
+		.product_section .latest_tech  h6{
+			width: 141px;
+			height: 26px;
+			font-size: 20px;
+			font-family: Rajdhani,SemiBold;
+			color: #222222;
+			opacity: 1;
+		}
+		.product_section .Protection  h6{
+			width: 141px;
+			height: 26px;
+			font-size: 20px;
+			font-family: Rajdhani,SemiBold;
+			color: #222222;
+			opacity: 1;
+		}
+		.product_section .Manufacturing  h6{
+			width: 141px;
+			height: 26px;
+			font-size: 20px;
+			font-family: Rajdhani,SemiBold;
+			color: #222222;
+			opacity: 1;
+		}
+		.product_section.Global_Scalability h6{
+			width: 141px;
+			height: 26px;
+			font-size: 20px;
+			font-family: Rajdhani,SemiBold;
+			color: #222222;
+			opacity: 1;
+		}
+
+		.box{
+			margin-top:2930px;
+			margin-left:0px;
+			margin-bottom: 0px;
+			width: 1440px;
+			height: 385px;
+			background:#E8E8E8;
+		    border: 1px solid black;
+			text-align: center;
+			
+			opacity: 1;
+
+					}
+		 .box h2 {
+			margin-top: 10px;
+			margin-left: 575px;
+			padding: 30px;
+			width: 311px;
+			height: 49px;
+			text-align:center;
+			font-family:rajdhani;			
+			font-size: 39px;
+			letter-spacing:0px;
+			color: #03254C;
+			opacity: 1;
+		}
+		 .box p{
+			margin-top: 30px;
+			margin-left: 610px;
+			width: 251px;
+			height: 64px;
+			font-style: normal;
+			
+			text-align: center;
+			font-family:rajdhani;
+			font-size: 25px;
+			letter-spacing:0px;
+			color:#000000;
+			opacity: 1;
+
+		}
+		.box .Group img{
+			margin-top: 50px;
+			margin-left:100px;
+			width: 800px;
+			height: 78px;
+			opacity: 1;
+			align-content: center;
+
+		}
+		.box hr{
+			margin-top: 10px;
+			margin-left: 700px;
+			width: 75px;
+			border:2px solid #03254C;
+			opacity: 1;
+		}
+		.about{
+            margin-top:100px;
+            margin-left:0px;
+            width: 1440px;
+            height: 411px;
+            text-align:center;
+            align-items:center;
+            opacity: 1;
+            
+            padding: 0px 0px;
+
+        }
+        .about .about1{
+            margin-top:0px;
+            margin-left:178px;
+            margin-bottom: 0px;
+            padding: 50px 0px;
+            width: 375px;
+            height: 350px;
+            background:#FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow:0px 24px 48px ;
+            text-align: center;
+            align-items:center;
+            opacity:1;
+        }
+        .about .about2{
+            margin-top:-350px;
+            margin-left:590px;
+            margin-bottom: 0px;
+            padding: 50px 0px;
+            width: 375px;
+            height: 350px;
+            background:#FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow:0px 24px 48px ;
+
+            text-align: center;
+            align-items:center;
+            opacity: 1;
+
+
+        }
+        .about .about3{
+            margin-top:-350px;
+            margin-left:990px;
+            margin-bottom: 0px;
+            padding: 50px 0px;
+            width: 375px;
+            height: 350px;
+            background:#FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow:0px 24px 48px ;
+            text-align: center;
+            align-items:center;
+            opacity: 1;
+
+
+        }
+
+        .img1 img{
+        margin-left: 30px;
+        width: 64px;
+        height: 64px;
+        float: left;
+        opacity: 1;
+    }
+    .p p{
+        margin-top:70px;
+        margin-left: 30px;
+        width: 311px;
+        height: 117px;
+        text-align:left;
+        font-size: 16px;
+        font-family:rajdhani;
+        opacity: 1;
+    }
+    .d{
+        margin-top: 
+        margin-left: 
+    }
+    span {
+        
+            width: 112px;
+            height: 44px;
+            font-family: Rajdhani;
+            text-align: left;
+            font-weight: 600;
+            color: #222222;
+            font-size: 
+
+        }
+        .d p{
+            margin-top:0px;
+            margin-left: 125px;
+            width:200px;
+            height: 14px;
+            font-family: Rajdhani;
+            text-align: left;
+            font-weight: ;
+            color: #222222;
+            font-size:11px; 
+
+        }
+
+		
+		 h2{
+			margin-top:50px;
+			margin-left:112px;
+			width: 409px;
+			height: 97px;
+			text-align:left;
+			font-size: 39px;
+			font-family:Rajdhani;
+			line-height: 48px;
+
+		}
+		
